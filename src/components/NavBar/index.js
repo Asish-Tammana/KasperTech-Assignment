@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import {PiDotsNineBold} from 'react-icons/pi'
 import './index.css'
 
@@ -13,9 +14,15 @@ class NavBar extends Component {
             alt="logo"
           />
           <div className="nav-links-container">
-            <p className="nav-links">Explore</p>
-            <p className="nav-links">Company</p>
-            <p className="nav-links">Support</p>
+            <AnchorLink href="#exploreSection" className="nav-links">
+              Explore
+            </AnchorLink>
+            <AnchorLink href="#companySection" className="nav-links">
+              Company
+            </AnchorLink>
+            <AnchorLink href="#supportSection" className="nav-links">
+              Support
+            </AnchorLink>
           </div>
         </div>
         <div className="right-menu menu-section">

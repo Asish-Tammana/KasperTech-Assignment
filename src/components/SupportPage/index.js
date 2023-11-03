@@ -8,7 +8,7 @@ const featuresList = [
   {
     sno: 1,
     name: 'Engagement',
-    description: 'Full autonomy on when and how you talk',
+    description: 'Engage on a deeper level with the fans that matter most',
     imageUrl:
       'https://res.cloudinary.com/dyglzqdrl/image/upload/v1698945854/engagement_smeds3.png',
     altText: 'engagement',
@@ -16,7 +16,7 @@ const featuresList = [
   {
     sno: 2,
     name: 'Autonomy',
-    description: 'Engage on a deeper level with the fans that most matter',
+    description: ' Full autonomy on when and how you talk',
     imageUrl:
       'https://res.cloudinary.com/dyglzqdrl/image/upload/v1698945854/autonomy_gmuyjd.png',
     altText: 'autonomy',
@@ -42,7 +42,7 @@ const featuresList = [
 class SupportPage extends Component {
   render() {
     return (
-      <div className="support-section">
+      <div className="support-section" id="supportSection">
         <div className="support-first-section">
           <div className="question-section">
             <h1 className="support-question">Why become a creator?</h1>
@@ -63,7 +63,7 @@ class SupportPage extends Component {
                     src={each.imageUrl}
                     alt={each.altText}
                   />
-                  <h3>{each.name}</h3>
+                  <h3 className="feature-name">{each.name}</h3>
                   <p>{each.description}</p>
                 </div>
               ))}

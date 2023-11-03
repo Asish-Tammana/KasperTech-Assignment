@@ -157,6 +157,14 @@
     width: 100%;
   }
 
+  .feature-image {
+    width: 25%;
+  }
+
+  .feature-name {
+    font-size: 30px;
+  }
+
   .support-second-section {
     padding: 30px;
     width: 100%;

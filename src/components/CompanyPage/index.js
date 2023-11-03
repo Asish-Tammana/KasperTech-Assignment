@@ -45,7 +45,7 @@ const statisticsList = [
 class CompanyPage extends Component {
   render() {
     return (
-      <div className="company-section">
+      <div className="company-section" id="companySection">
         <h2 className="company-section-caption">
           <span className="get-direct">Get direct</span> <br /> knowledge and
           insite.

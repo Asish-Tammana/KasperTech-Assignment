@@ -4,7 +4,7 @@ import './index.css'
 class ExplorePage extends Component {
   render() {
     return (
-      <div>
+      <div id="exploreSection">
         <div className="explore-page">
           <div className="explore-page-top-section">
             <h1 className="caption">

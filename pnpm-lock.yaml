@@ -4,6 +4,7 @@ dependencies:
   '@testing-library/user-event': 12.6.2
   chalk: 4.1.0
   react: 17.0.1
+  react-anchor-link-smooth-scroll: 1.0.12
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.11.0_react@17.0.1
 devDependencies:
@@ -11741,6 +11742,10 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha512-qqJBtEyVgS0ZmPGdCFPWJ3FreoqvG4MVQln/kCgF7Olq95IbOp0/BWyMwbdtn4VTvkM8Y7khCQ2Xgk/tcrCXig==
+  /react-anchor-link-smooth-scroll/1.0.12:
+    dev: false
+    resolution:
+      integrity: sha512-aaY+9X0yh8YnC0jBfoTKpsiCLdO/Y6pCltww+VB+NnTBPDOvnIdnp1AlazajsDitc1j+cVSQ+yNtaVeTIMQbxw==
   /react-app-polyfill/2.0.0:
     dependencies:
       core-js: 3.33.2
@@ -14607,6 +14612,7 @@ specifiers:
   npm-run-all: 4.1.5
   prettier: 2.2.1
   react: 17.0.1
+  react-anchor-link-smooth-scroll: 1.0.12
   react-dom: 17.0.1
   react-icons: 4.11.0
   react-scripts: 4.0.3
