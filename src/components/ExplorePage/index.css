@@ -1,0 +1,66 @@
+.explore-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explore-page-top-section {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  background-color: #f6f6f6;
+}
+
+.caption {
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #2b2730;
+  text-align: center;
+  width: 55%;
+  text-align: left;
+}
+
+.fantasy-reports {
+  color: #ffb84c;
+}
+
+.video-call {
+  width: 15%;
+}
+
+.banner-section {
+  text-align: center;
+  background-image: url('https://res.cloudinary.com/dyglzqdrl/image/upload/v1699003501/Screenshot_2023-11-03_143918_bhqils.png');
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+}
+
+.banner {
+  width: 70%;
+}
+
+@media (max-width: 992px) {
+  .caption {
+    width: 75%;
+    font-size: 50px;
+  }
+
+  .banner-section {
+    height: 450px;
+  }
+
+  .banner {
+    width: 85%;
+  }
+
+  .video-call {
+    align-self: flex-end;
+    width: 20%;
+  }
+}

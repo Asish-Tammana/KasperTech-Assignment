@@ -1,0 +1,128 @@
+.company-section {
+  background-color: #2b2730;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.company-section-caption {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  width: 55%;
+  text-align: left;
+}
+
+.get-direct {
+  color: #ffb84c;
+}
+
+.team-members-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.team-member-images {
+  width: 30%;
+}
+
+.statistics-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statistics-detailed-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.statistics-count {
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffb84c;
+  margin-bottom: 0;
+}
+
+.statistics-category {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.explore-market-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+}
+
+.explore-link {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 25px;
+  width: 50%;
+}
+
+.explore-button {
+  height: 70px;
+  width: 70px;
+  background-color: #ffb84c;
+  border: 0;
+  border-radius: 50px;
+  font-size: 25px;
+  padding-left: 8px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .company-section {
+    padding-top: 1px;
+  }
+
+  .company-section-caption {
+    width: 70%;
+  }
+
+  .team-member-images {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  .statistics-section {
+    flex-direction: column;
+  }
+
+  .statistics-detailed-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .explore-market-section-container {
+    width: 80%;
+  }
+
+  .explore-link {
+    width: 70%;
+  }
+
+  .explore-button {
+    height: 40px;
+    width: 40px;
+  }
+}
