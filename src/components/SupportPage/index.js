@@ -114,7 +114,7 @@ class SupportPage extends Component {
             <h3 className="support-title">Support</h3>
             <p className="support-name">Service status</p>
             <p className="support-name">Report abuse</p>
-            <p className="support-name">Dispute a payment</p>
+            <p className="support-name">Dispute a payment.</p>
           </div>
           <div className="mobile-handles-container">
             <img
